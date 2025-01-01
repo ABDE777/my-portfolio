@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="../BOOTSTRAP/bootstrap.min.css">
+    <script src="../BOOTSTRAP/bootstrap.bundle.min (1).js"></script>
+    <style>
+        .navbar-brand {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-nav {
+            justify-content: center;
+
+            align-items: center;
+            /* Center links horizontally */
+        }
+
+        @media (max-width: 990px) {
+            .collapse {
+                display: none;
+                animation: fadeOut 1s ease-in-out forwards;
+            }
+
+            .navbar-toggler:hover+.collapse {
+                display: block !important;
+                animation: fadeIn 1s ease-in-out forwards;
+            }
+
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-10px);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @keyframes fadeOut {
+                0% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                100% {
+                    opacity: 0;
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class=" navbar bg-black  fixed-top navbar-expand-lg text-center">
+        <div class="container-fluid">
+            <a href="mine.html" class="logo navbar-brand ">
+                <img src="IMG/STORE.png" class="img-fluid rounded-circle navbar-brand " alt="logo"
+                    style="width: 200PX;height: 150PX;">
+            </a>
+
+            <button type="button" class="bg-success navbar-toggler" data-bs-toggle="collapse" data-bs-target="#idd">
+                <span class="white rounded navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end collapse navbar-collapse " id="idd">
+                <ul class="navbar-nav navbar-expand-md gap-3">
+                    <li class="nav-item fs-5  fw-bold h6 bg-success rounded" style="width:200PX;"><a href=""
+                            class="text-white nav-link ">ABOUT ME</a></li>
+                    <li class="nav-item fs-5 fw-bold h6 bg-success rounded" style="width:200PX;"><a href=""
+                            class="text-white nav-link">PROJECTS</a></li>
+                    <li class="nav-item fs-5 fw-bold h6 bg-success rounded" style="width:200PX;"><a href=""
+                            class="text-white nav-link">CONTACT ME</a></li>
+                    <li class="nav-item fs-5 fw-bold h6 bg-success rounded" style="width:200PX;"><a href=""
+                            class="text-white nav-link">YOUR REVIEWS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

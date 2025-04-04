@@ -15,18 +15,18 @@ const projects = [
     image: "/lovable-uploads/project1.jpg",
     tags: ["React", "Next.js", "Tailwind CSS", "Vercel", "E-commerce"]
   },
-  {
-    id: 2,
-    title: "Portfolio Personnel",
-    description: "Mon portfolio professionnel présentant mes compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante.",
-    url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
-    image: "/lovable-uploads/project2.jpg",
-    tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"]
-  },
+ {
+    "id": 2,
+    "title": "Portfolio Personnel",
+    "description": "Exemple open source d'un portfolio professionnel présentant des compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante. (Ce n'est pas mon portfolio personnel mais une démonstration)",
+    "url": "https://abdelmonim-mazgoura-portfolio.vercel.app/",
+    "image": "/lovable-uploads/project2.jpg",
+    "tags": ["React", "Tailwind CSS", "JavaScript", "Vercel"]
+}
   {
     id: 3,
-    title: "Club ITIS Site Web",
-    description: "Un site web dynamique pour le club ITIS, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
+    title: "Club IT ISFO Site Web",
+    description: "Un site web dynamique pour le club IT ISFO, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
     url: "https://clubitisfo.vercel.app/",
     image: "/lovable-uploads/project3.jpg",
     tags: ["HTML", "CSS", "JavaScript", "React", "Vercel"]

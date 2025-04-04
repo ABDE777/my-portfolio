@@ -12,23 +12,23 @@ const projects = [
     title: "Inferno Heart E-commerce",
     description: "Une plateforme e-commerce moderne avec une interface utilisateur élégante et des fonctionnalités de panier d'achat. Développée avec Next.js et Tailwind CSS.",
     url: "https://inferno-heart-ecommerce.vercel.app/",
-    image: "/lovable-uploads/project1.jpg",
+    image: "/project1.jpg",
     tags: ["React", "Next.js", "Tailwind CSS", "Vercel", "E-commerce"]
   },
  {
-    "id": 2,
-    "title": "Portfolio Personnel",
-    "description": "Exemple open source d'un portfolio professionnel présentant des compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante. (Ce n'est pas mon portfolio personnel mais une démonstration)",
-    "url": "https://abdelmonim-mazgoura-portfolio.vercel.app/",
-    "image": "/lovable-uploads/project2.jpg",
-    "tags": ["React", "Tailwind CSS", "JavaScript", "Vercel"]
+    id": 2,
+    title: "Portfolio Personnel",
+    description: "Exemple open source d'un portfolio professionnel présentant des compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante. (Ce n'est pas mon portfolio personnel mais une démonstration)",
+    url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
+    image: "/project2.jpg",
+    tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"]
 }
   {
     id: 3,
     title: "Club IT ISFO Site Web",
     description: "Un site web dynamique pour le club IT ISFO, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
     url: "https://clubitisfo.vercel.app/",
-    image: "/lovable-uploads/project3.jpg",
+    image: "/project3.jpg",
     tags: ["HTML", "CSS", "JavaScript", "React", "Vercel"]
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "ABDE MARKET",
     description: "Une plateforme e-commerce avec une interface utilisateur intuitive pour explorer et acheter des produits. Implémentée avec des animations fluides et un design réactif.",
     url: "https://abde777.github.io/ABDE-MARKET/",
-    image: "/lovable-uploads/project4.jpg",
+    image: "/project4.jpg",
     tags: ["HTML", "CSS", "JavaScript", "E-commerce"]
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     title: "Python Types Game",
     description: "Un jeu éducatif interactif pour apprendre les types de données en Python. Idéal pour les débutants souhaitant renforcer leurs connaissances en programmation de manière ludique.",
     url: "https://abde777.github.io/python-type-game/py%20game/index.html",
-    image: "/lovable-uploads/project5.jpg",
+    image: "/project5.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Python", "Game", "Education"]
   }
 ];

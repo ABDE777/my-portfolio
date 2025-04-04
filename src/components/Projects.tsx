@@ -22,7 +22,7 @@ const projects = [
     url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
     image: "/project2.jpg",
     tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"]
-}
+},
   {
     id: 3,
     title: "Club IT ISFO Site Web",

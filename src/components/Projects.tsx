@@ -46,7 +46,15 @@ const projects = [
     url: "https://abde777.github.io/python-type-game/py%20game/index.html",
     image: "/project5.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Python", "Game", "Education"]
-  }
+  },
+  {
+  id: 6,
+  title: "[Template Open-Source] Portfolio Développeur",
+  description: "Template de portfolio professionnel open-source, conçu pour être personnalisable et clonable. Parfait pour développeurs souhaitant montrer leurs compétences/projets. Inclut : sections modulaires, dark/light mode, animations GSAP et design responsive. Tech : Next.js + Tailwind CSS.",
+  url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
+  image: "/project6.jpg",
+  tags: ["Open-Source", "Template", "React", "Next.js", "Tailwind CSS", "Portfolio", "Responsive"]
+}
 ];
 
 const tagIcons = {

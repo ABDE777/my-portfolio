@@ -16,7 +16,7 @@ const projects = [
     tags: ["React", "Next.js", "Tailwind CSS", "Vercel", "E-commerce"]
   },
  {
-    id": 2,
+    id: 2,
     title: "Portfolio Personnel",
     description: "Exemple open source d'un portfolio professionnel présentant des compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante. (Ce n'est pas mon portfolio personnel mais une démonstration)",
     url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",

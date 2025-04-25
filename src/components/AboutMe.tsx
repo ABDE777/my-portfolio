@@ -68,7 +68,7 @@ const AboutMe = () => {
                 Voir Projets
               </a>
               <a 
-                href="/resume.pdf" 
+                href="/ABD EL MONIM MAZGOURA.pdf" 
                 download 
                 className="button-3d flex items-center justify-center gap-2 bg-white text-gray-900 rounded-md hover:bg-gray-100 font-medium w-full sm:w-auto transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg active:translate-y-0 active:shadow-md neon-btn"
               >

@@ -513,9 +513,9 @@ export const extracurricularActivities = [
   },
   {
     position: "Ambassadeur",
-    organization: "ISFO",
+    organization: "Institut Spécialisé de Formation de l'Offshoring Casablanca -ISFO Casablanca",
     period: "Mai 2025 - Présent",
-    icon: getClubITAvatar(), // à définir selon vos icônes disponibles
+    icon: getOFPPTAvatar(), // à définir selon vos icônes disponibles
     description: "Représentation de l’ISFO, centre de formation professionnelle spécialisé dans les carrières tech et numériques. Promotion des formations, accompagnement des futurs apprenants et valorisation des réussites étudiantes.",
     responsibilities: [
       "Promotion des programmes de formation en développement web, IT et métiers du digital",

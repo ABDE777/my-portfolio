@@ -276,6 +276,22 @@ export const programmingSkills = [
 
 export const certificates = [
   {
+    name: "Learn MySQL – For Beginners",
+    issuer: "Udemy",
+    date: "Juin 2025",
+    icon: getCertificateIcon("red"),
+    description: "Cours d'initiation à MySQL couvrant les bases des bases de données relationnelles, l'utilisation de PhpMyAdmin, la gestion des privilèges, ainsi que la connexion entre PHP et MySQL.",
+    link: "https://www.udemy.com/certificate/UC-8d372c9c-ae96-4e4b-bbc8-5d3052923d01/",
+    certificateId: "UC-8d372c9c-ae96-4e4b-bbc8-5d3052923d01",
+    skills: [
+      "MySQL",
+      "SQL",
+      "PhpMyAdmin",
+      "Gestion des privilèges",
+      "Connexion PHP/MySQL"
+    ]
+  },
+  {
     name: "Introduction to Modern AI",
     issuer: "Cisco Networking Academy",
     date: "16 avril 2025",
@@ -432,23 +448,15 @@ export const badges = [
     link: "https://learn.microsoft.com/en-us/training/modules/introduction-generative-ai/"
   },
   {
-    name: "Introduction to Modern AI",
-    issuer: "Cisco Networking Academy",
-    date: "16 avril 2025",
-    image: "/lovable-uploads/8548e38d-82b6-4f90-974d-dd42da729751.png",
-    description: "Badge officiel Cisco validant les compétences acquises dans le domaine de l'Intelligence Artificielle moderne et des modèles de langage.",
-    skills: ["IA & Machine Learning", "Détection d'objets", "LLM", "Traduction automatique", "Prompting multimodal"],
-    link: "https://www.netacad.com/courses/ai"
-  },
-  {
     name: "Verified: Introduction to Modern AI",
     issuer: "Cisco Networking Academy",
     date: "16 avril 2025",
     image: "/lovable-uploads/99069227-9f4e-43ec-ae0c-9517d0835af4.png",
-    description: "Badge de vérification Cisco attestant l'achèvement du cours Introduction to Modern AI et démontrant les compétences dans l'utilisation de technologies d'IA.",
-    skills: ["Génération d'idées", "Résumés automatiques", "Reformulation", "Dialogue avec chatbots", "Collaboration IA"],
+    description: "Badge officiel délivré par Cisco certifiant la réussite du cours Introduction to Modern AI. Ce badge atteste des compétences acquises dans l'utilisation des technologies d'intelligence artificielle moderne, y compris les modèles de langage avancés.",
+    skills: ["IA & Machine Learning", "Détection d'objets", "LLM", "Traduction automatique","Dialogue avec chatbots", "Prompting multimodal"],
     link: "https://www.netacad.com/courses/ai"
   },
+
 ];
 
 export const education = [
@@ -475,7 +483,7 @@ export const education = [
 export const experience = [
   {
     position: "Téléconseiller",
-    company: "SKM SHORE",
+    company: "ECO SHORE",
     period: "Juin 2024 - Juillet 2024 (2 mois)",
     icon: getSKMShoreAvatar(),
     description: "Expérience dans un centre d'appel, gestion des demandes clients et résolution des problèmes.",
@@ -491,7 +499,40 @@ export const extracurricularActivities = [
     period: "Sep 2024 - Présent",
     icon: getClubITAvatar(),
     description: "Intégration au club informatique de l'institut en tant que responsable de la formation des membres et de la gestion des projets. Participation active à l'organisation d'événements liés au développement web et aux nouvelles technologies.",
-    responsibilities: ["Formation des nouveaux membres", "Gestion de projets", "Organisation d'ateliers", "Accompagnement technique"],
-    achievements: ["Mise en place d'un programme de mentorat", "Développement de projets collaboratifs", "Création de ressources pédagogiques"]
+    responsibilities: [
+      "Formation des nouveaux membres",
+      "Gestion de projets",
+      "Organisation d'ateliers",
+      "Accompagnement technique"
+    ],
+    achievements: [
+      "Mise en place d'un programme de mentorat",
+      "Développement de projets collaboratifs",
+      "Création de ressources pédagogiques"
+    ]
+  },
+  {
+    position: "Ambassadeur",
+    organization: "ISFO",
+    period: "Mai 2025 - Présent",
+    icon: getClubITAvatar(), // à définir selon vos icônes disponibles
+    description: "Représentation de l’ISFO, centre de formation professionnelle spécialisé dans les carrières tech et numériques. Promotion des formations, accompagnement des futurs apprenants et valorisation des réussites étudiantes.",
+    responsibilities: [
+      "Promotion des programmes de formation en développement web, IT et métiers du digital",
+      "Orientation des apprenants vers des parcours adaptés",
+      "Partage d'histoires de réussite et d'exemples concrets"
+    ],
+    achievements: [
+      "Création de contenus inspirants sur les formations",
+      "Renforcement de la visibilité du centre",
+      "Accompagnement personnalisé des futurs étudiants"
+    ],
+    skills: [
+      "Communication interpersonnelle",
+      "Animation de communauté",
+      "Orientation professionnelle",
+      "Connaissance des formations tech"
+    ]
   }
 ];
+

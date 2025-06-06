@@ -142,7 +142,7 @@ export const skillNodes: SkillNode[] = [
     level: 85,
     group: "Outil",
     color: "from-green-600 to-green-700",
-    iconName: 
+    iconName: ""
   },
   {
   id: "word",
@@ -150,7 +150,7 @@ export const skillNodes: SkillNode[] = [
   level: 88,
   group: "Outil",
   color: "from-blue-700 to-blue-800",
-  iconName: 
+  iconName: ""
 },
 {
   id: "powerpoint",
@@ -158,7 +158,7 @@ export const skillNodes: SkillNode[] = [
   level: 83,
   group: "Outil",
   color: "from-red-600 to-red-700",
-  iconName: 
+  iconName: ""
 },
 {
   id: "googleforms",
@@ -166,7 +166,7 @@ export const skillNodes: SkillNode[] = [
   level: 78,
   group: "Outil",
   color: "from-purple-700 to-purple-800",
-  iconName: 
+  iconName: ""
 }
 
 ];

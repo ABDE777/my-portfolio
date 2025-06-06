@@ -136,4 +136,37 @@ export const skillNodes: SkillNode[] = [
     color: "#FF6C37",
     iconName: "SiPostman"
   },
+   {
+    id: "excel",
+    name: "Excel",
+    level: 85,
+    group: "Outil",
+    color: "from-green-600 to-green-700",
+    iconName: ,
+  },
+  {
+  id: "word",
+  name: "Word",
+  level: 88,
+  group: "Outil",
+  color: "from-blue-700 to-blue-800",
+  iconName: ,
+},
+{
+  id: "powerpoint",
+  name: "PowerPoint",
+  level: 83,
+  group: "Outil",
+  color: "from-red-600 to-red-700",
+  iconName: ,
+},
+{
+  id: "googleforms",
+  name: "Google Forms",
+  level: 78,
+  group: "Outil",
+  color: "from-purple-700 to-purple-800",
+  iconName: ,
+}
+
 ];

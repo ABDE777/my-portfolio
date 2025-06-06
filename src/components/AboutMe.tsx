@@ -90,7 +90,7 @@ const AboutMe = () => {
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-blue-500/30 relative z-10 animate-spin-slow">
                 <div className="w-full h-full rounded-full overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out shadow-lg" style={{ background: "linear-gradient(45deg, rgba(0, 132, 255, 0.3), rgba(255, 0, 255, 0.3))" }}>
                   <img 
-                    src="/3.png" 
+                    src="/IMG_1930.png" 
                     alt="Abd El Monim Mazgoura"
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {

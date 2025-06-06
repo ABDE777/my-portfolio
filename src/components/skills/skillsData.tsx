@@ -282,8 +282,7 @@ export const certificates = [
     icon: getCertificateIcon("red"),
     description: "Cours d'initiation à MySQL couvrant les bases des bases de données relationnelles, l'utilisation de PhpMyAdmin, la gestion des privilèges, ainsi que la connexion entre PHP et MySQL.",
     link: "https://www.udemy.com/certificate/UC-8d372c9c-ae96-4e4b-bbc8-5d3052923d01/",
-    certificateId: "UC-8d372c9c-ae96-4e4b-bbc8-5d3052923d01",
-    skills: [
+    projects: [
       "MySQL",
       "SQL",
       "PhpMyAdmin",

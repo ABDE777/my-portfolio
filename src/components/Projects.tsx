@@ -21,57 +21,48 @@ import { ArrowRight, ExternalLink, Code, LockIcon, ArrowDown } from "lucide-reac
 const projects = [
   {
     id: 1,
-    title: "Inferno Heart E-commerce",
-    description: "Une plateforme e-commerce moderne avec une interface utilisateur élégante et des fonctionnalités de panier d'achat. Développée avec Next.js et Tailwind CSS.",
-    url: "https://inferno-heart-ecommerce.vercel.app/",
-    github: "https://github.com/user/inferno-heart-ecommerce",
+    title: "CHEBKA",
+    description: "La toile qui connecte les talents d'aujourd'hui aux opportunités de demain. Une plateforme marocaine innovante qui tisse des liens solides entre étudiants, établissements de formation et entreprises, pour favoriser l'insertion professionnelle et développer un écosystème éducatif performant.",
+    url: "https://chebka.vercel.app/",
+    github: "https://github.com/ABDE777",
     image: "/project1.jpg",
-    tags: ["React", "Next.js", "Tailwind CSS", "Vercel", "E-commerce"]
+    tags: ["React", "Next.js", "Tailwind CSS"]
   },
   {
     id: 2,
-    title: "Portfolio Personnel",
-    description: "Exemple open source d'un portfolio professionnel présentant des compétences, projets et expériences en développement web. Conçu avec une approche minimaliste et élégante. (Ce n'est pas mon portfolio personnel mais une démonstration)",
-    url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
-    github: "https://github.com/user/portfolio-template",
-    image: "/project2.jpg",
-    tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"]
+    title: "Club IT ISFO Site Web",
+    description: "Un site web dynamique pour le club IT ISFO, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
+    url: "https://conference-hazel.vercel.app/",
+    github: "https://github.com/ABDE777",
+    image: "/project3.jpg",
+    tags:  ["React", "Next.js", "Tailwind CSS"]
   },
   {
     id: 3,
-    title: "Club IT ISFO Site Web",
-    description: "Un site web dynamique pour le club IT ISFO, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
-    url: "https://clubitisfo.vercel.app/",
-    github: "https://github.com/user/club-it-isfo",
-    image: "/project3.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Vercel"]
+    title: "Digital Skills & Jobs Day 2025",
+    description: "Un événement incontournable pour les passionnés du numérique et les professionnels du secteur IT au Maroc. Cette première édition, organisée à l’OFPPT Casablanca, propose des conférences sur l’intelligence artificielle, la cybersécurité et la transformation digitale, ainsi que des opportunités de networking et de développement professionnel.",
+    url: "https://conference-hazel.vercel.app/",
+    github: "https://github.com/abde777",
+    image: "/project4.jpg",
+    tags: ["React", "Next.js", "Tailwind CSS"]
   },
   {
     id: 4,
-    title: "ABDE MARKET",
-    description: "Une plateforme e-commerce avec une interface utilisateur intuitive pour explorer et acheter des produits. Implémentée avec des animations fluides et un design réactif.",
-    url: "https://abde777.github.io/ABDE-MARKET/",
-    github: "https://github.com/abde777/ABDE-MARKET",
-    image: "/project4.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "E-commerce"]
+    title: "ACAPA – La Communauté Passionnée de Pétanque",
+    description: "ACAPA est une association dédiée aux amateurs et professionnels de la pétanque. Elle rassemble des joueurs de tous âges autour de tournois, entraînements et événements dans une ambiance conviviale. Le site propose des articles techniques, historiques et des astuces pour améliorer son jeu, ainsi qu’un espace de contact pour rejoindre la communauté.",
+    url: "https://a-c-a-p-a.vercel.app/",
+    github: "https://github.com/abde777",
+    image: "/project5.jpg",
+    tags: ["React", "Next.js", "Tailwind CSS"]
   },
   {
     id: 5,
-    title: "Python Types Game",
-    description: "Un jeu éducatif interactif pour apprendre les types de données en Python. Idéal pour les débutants souhaitant renforcer leurs connaissances en programmation de manière ludique.",
-    url: "https://abde777.github.io/python-type-game/py%20game/index.html",
-    github: "https://github.com/abde777/python-type-game",
-    image: "/project5.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "Python", "Game", "Education"]
-  },
-  {
-    id: 6,
-    title: "[Template Open-Source] Portfolio Développeur",
-    description: "Template de portfolio professionnel open-source, conçu pour être personnalisable et clonable. Parfait pour développeurs souhaitant montrer leurs compétences/projets. Inclut : sections modulaires, dark/light mode, animations GSAP et design responsive. Tech : Next.js + Tailwind CSS.",
-    url: "https://abdelmonim-mazgoura-portfolio.vercel.app/",
-    github: "https://github.com/user/portfolio-template-open-source",
+    title: "MAZGOURA-LINKTREE",
+    description: "Une page Linktree regroupant les projets, réseaux professionnels et plateformes d’ABD EL MONIM MAZGOURA. Elle permet une navigation rapide vers ses réalisations, ses collaborations et ses liens pertinents dans le domaine du développement et de l’innovation technologique.",
+    url: "https://my-linktree-one.vercel.app/",
+    github: "https://github.com/ABDE777",
     image: "/project6.jpg",
-    tags: ["Open-Source", "Template", "React", "Next.js", "Tailwind CSS", "Portfolio", "Responsive"]
+    tags: ["HTML","CSS","Vercel"]
   }
 ];
 

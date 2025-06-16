@@ -32,7 +32,7 @@ const projects = [
     id: 2,
     title: "Club IT ISFO Site Web",
     description: "Un site web dynamique pour le club IT ISFO, présentant les activités, événements et membres. Conçu pour être informatif et facile à naviguer.",
-    url: "https://conference-hazel.vercel.app/",
+    url: "https://clubitisfo.vercel.app/",
     github: "https://github.com/ABDE777",
     image: "/project3.jpg",
     tags:  ["React", "Next.js", "Tailwind CSS"]

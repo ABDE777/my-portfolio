@@ -21,7 +21,7 @@ const GitHubStats = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const GITHUB_TOKEN = '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';
+  const GITHUB_TOKEN = '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';
   const USERNAME = 'ABDE777';
 
   const headers = {
